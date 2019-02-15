@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>在线报名</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="../my-css/baoming.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="top_box1">
+    <!--头部-->
+    <div class="head">
+        <ul class="top">
+            <li><a href="../index.html"><img src="images/logo2.gif"></a></li>
+            <li class="right_l" id="dingbu">报名已破<span>3万</span>人</li>
+        </ul>
+    </div>
+    <div class="zxbm">
+        <div class="title t_center">在线报名</div>
+        <div class="zxbm_b">
+            <form name="feedback" method="post" enctype="multipart/form-data" id="Fpost" action="../weixin/index.php">
+                <input name="enews" type="hidden" value="AddFeedback">
+                <input name="bid" type="hidden" value="1">
+                <ul>
+                    <li><span><input name="name" type="text" value="" placeholder="参会家长/教师姓名" required=""></span></li>
+                    <li><span><input name="mycall" id="mobile" type="text" value="" placeholder="参会家长/教师电话" required=""></span></li>
+                    <li><span><input name="company" type="text" value="" placeholder="孩子/教师所在学校" required=""></span></li>
+                    <li><span><input name="childName" type="text" value="" placeholder="孩子姓名(仅家长填写)" required=""></span></li>
+                    <li class="tijiao"><input type="submit" name="submit" value="提 交" style="width:100%;"></li>
+                </ul>
+            </form>
+            <div class="zxbm_bz t_center">(注：提交报名资料后，您会收到参会短信通知，届时凭该通知短信入场)</div>
+        </div>
+    </div>
+    <!--底部nav-->
+    <ul class="nav">
+        <li><a href="jieshao.html">介 绍</a></li>
+        <li><a href="jiabin.html">嘉 宾</a></li>
+        <li><a class="red" href="baoming.html">报 名</a></li>
+        <li><a href="ditu.html">地 图</a></li>
+        <li><a href="yicheng.html">议 程</a></li>
+    </ul>
+    <ul class="asideBox">
+        <li><a href="baoming.html">我要<br>报名</a></li>
+        <li><a href="weixin.html">官方<br>微信</a></li>
+        <li><a href="#dingbu">返回<br>顶部</a></li>
+    </ul>
+    <script src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../open/js/jweixin-1.0.0.js"></script>
+    <script type="text/javascript" src="../weixin/index.php"></script>
+    <!--<script type="text/javascript" src="../js/jquery-1.11.3.js"></script>-->
+    <!-- 引入根据开发js文件-->
+    <script type="text/javascript" src="../my-js/baoming.js"></script>
+    <script src="../my-js/common.js"></script>
+</div>
+</body>
+</html>

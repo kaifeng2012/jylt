@@ -1,0 +1,36 @@
+.asideBox{
+    position:fixed;
+    right:1%;
+    bottom:10%;
+    z-index:9999;
+}
+.asideBox li a{
+    display:block;
+    margin-bottom:10px;
+    background:#f00;
+    font-family:Œ¢»Ì—≈∫⁄;
+    font-size:12px;
+    color:#fff;
+    border-radius:15%;
+    -moz-border-radius:15%;
+    -webkit-border-radius:15%;
+    padding:8px 13px;
+}
+.logo{
+    width: 50%;
+    display: inline-block;
+}
+.yiJia{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    top: -16px;
+}
+/*“‘Õ˘ºÙ”∞*/
+.activitiesPhotos{
+    margin-top:40px
+}
+.activitiesPhotos span{
+    margin: 2em 0 0 0;font-size:1.0em;color: #5c676d;font-weight:bolder
+}

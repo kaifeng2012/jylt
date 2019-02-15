@@ -1,0 +1,27 @@
+.asideBox{
+    position:fixed;
+    right:1%;
+    bottom:10%;
+    z-index:9999;
+}
+
+.asideBox li a{
+    display:block;
+    margin-bottom:10px;
+    background:#f00;
+    font-family:Î¢ÈíÑÅºÚ;
+    font-size:12px;
+    color:#fff;
+    border-radius:15%;
+    -moz-border-radius:15%;
+    -webkit-border-radius:15%;
+    padding:8px 13px;
+}
+
+.piao h1{font-size:14px; margin:10px 0; font-weight:bold;}
+.piao{width:100%; margin:0 auto;}
+.piao .t1{font-weight: bold;}
+.piao ul{overflow:hidden;}
+.piao ul li{float:left;  border:1px solid #666;line-height:34px !important;}
+.piao ul .t1_11{width:20%;text-align: center;}
+.piao ul .t1_22{width:75%; padding-left:1em;}
